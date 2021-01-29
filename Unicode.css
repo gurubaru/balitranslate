@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Natya;
+    src: url('Natya.ttf') format('truetype'),
+    }
+
+.bali {
+    font-family: Natia;
+}
+.number,.alpha {
+	height: 35px;
+	width: 8.8%;
+	font-size: normal;
+    border-radius: 1px;
+    font-family: Bali Jelih;
+	}
+.alpha:hover {
+    background-color: rgb(12, 245, 101);
+    color:white ;
+}
+
+.alpha:active {
+    background-color: grey;
+    color: #000000;
+}
+.special:hover{
+    background-color: grey;
+    color:white ;
+}
+
+.special:active {
+    background-color: grey;
+    color: #000000;
+}
+.number:hover{
+    background-color: grey;
+    color:white ;
+}
+
+.number:active {
+    background-color: grey;
+    color: #000000;
+}
+.delete:hover{
+    background-color: orange;
+    color:white ;
+}
+
+.delete:active {
+    background-color: red;
+    color: #000000;
+}
+.ultra{
+    height: 35px;
+	width: 8.8%;
+	font-size: normal;
+    border-radius: 1px;
+}
+.ultra:active {
+    background-color: black;
+    colorr:white
+}
+.ultra:hover{
+    background-color:black;
+    color:white ;
+}
+.ultra:visited {
+    background-color: black;
+    colorr:white
+}
