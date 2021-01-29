@@ -2,7 +2,7 @@
  * Noto Sans Balinese (Balinese) http://www.google.com/fonts/earlyaccess
  */
  @font-face {
-    font-family: 'Noto Sans Balinese';
+    font-family: 'Natya';
     font-style: normal;
     font-weight: 400;
     src: url(Natya.ttf) format('truetype');
@@ -10,7 +10,7 @@
 
 .main_ta
 {
-    font-family: 'Noto Sans Balinese';
+    font-family: 'arial';
    width:100%;
    height:250px;
    text-align:left;
@@ -18,7 +18,7 @@
 }
 .tb
 {
-    font-family: 'Noto Sans Balinese';
+    font-family: 'arial';
    width:100%;
    font-size:150%;
 }
@@ -29,7 +29,7 @@
 }
 .gb
 {
-    font-family: 'Noto Sans Balinese';
+    font-family: 'arial';
     margin:10px;
     border-style:solid;
     border-width:10px;
@@ -41,10 +41,10 @@
 
 #prev_label
 {
-    font-family: 'Noto sans Balinese';
+    font-family: 'Natya';
     color:rgb(2, 10, 19);
     font-size: 150%;
-    line-height:3em;
+    line-height:1.5em;
 }
 .code
 {
