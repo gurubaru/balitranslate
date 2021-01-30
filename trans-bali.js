@@ -156,7 +156,7 @@ function GetShift(str) {
 	} else if (str.indexOf("bh") == 0) { //bh (aksara murda)
 	return { "CoreSound":  "ᬪ", "len": 2  };
 	} else if (str.indexOf("sh") == 0) { //sh (aksara murda)
-	return { "CoreSound":  "ᬰ", "len": 2  };
+	return { "CoreSound":  "ᬱ", "len": 2  };
 	} else if (str.indexOf("h") == 1) { //h
 	return { "CoreSound": "" + GetCoreSound(str[0]).CoreSound + "᭄ᬳ", "len": 2 };
 	} else if (str.indexOf("h") > 1) { //suku kata memiliki konsonan 'h' yang tidak di awal suku
@@ -449,11 +449,11 @@ function GetCoreSound(str) {
 	"ê":"ᬳᭂ", //ê
 	"ě":"ᬳᭂ", //ě
 	"ô":"ᬳ", //ô
-	"ñ":"-",
-	"ṇ":"ᬡ",
+	"ñ":"ᬡ",
+	"ṇ":"-",
 	"ḍ":"ᬟ",
 	"ṭ":"ᬝ",
-	"ṣ":"ᬱ"
+	"ç":"ᬰ"
 	}
 	var consonantMap2 = {
 	"A":"ᬅ", //A
@@ -516,10 +516,10 @@ function GetCoreSound(str) {
 	"é":"ᬏ", //é
 	"ê":"ᬅᭂ", //ê
 	"ě":"ᬅᭂ", //ě
-	"ṇ":"ᬡ",
+	"ñ":"ᬡ",
 	"ḍ":"ᬟ",
 	"ṭ":"ᬝ",
-	"ṣ":"ᬱ"
+	"ç":"ᬰ"
 	}
 	var consonantMap, murda;
 	var modeMurda = document.getElementsByName("murda");
