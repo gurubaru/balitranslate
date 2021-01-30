@@ -18,7 +18,7 @@
 }
 .tb
 {
-   width:95%;
+   width:100%;
    font-size:14pt;
 }
 .gb:hover
@@ -44,7 +44,7 @@
     color:rgb(2, 10, 19);
     font-size: 150%;
     padding: 10px;
-    line-height:1.5em;
+    line-height:2em;
 }
 .code
 {
