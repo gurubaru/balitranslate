@@ -1,18 +1,19 @@
-/*
- * Noto Sans Balinese (Balinese) http://www.google.com/fonts/earlyaccess
- */
- @font-face {
+@font-face {
     font-family: 'Natya';
     font-style: normal;
     font-weight: 400;
     src: url(Natya.ttf) format('truetype');
   }
-
+textarea{
+    width: 100%;
+    height: auto;
+    resize: none;
+}
 .main_ta
 {
    font-family: 'Natya';
    width:100%;
-   height:100px;
+   height:auto;
    text-align:left;
    font-size:150%;
 }
@@ -45,6 +46,7 @@
     font-size: 150%;
     padding: 10px;
     line-height:2em;
+    width: 95%;
 }
 .code
 {
