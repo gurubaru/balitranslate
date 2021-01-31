@@ -20,6 +20,7 @@ textarea{
 .tb
 {
    width:100%;
+   height:auto;
    font-size:14pt;
 }
 .gb:hover
@@ -47,6 +48,7 @@ textarea{
     padding: 10px;
     line-height:2em;
     width: 95%;
+    height:auto;
 }
 .code
 {
