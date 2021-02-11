@@ -1,0 +1,36 @@
+@font-face{
+font-family:bali jelih std;
+src:url('Bali Jelih std.eot');
+src:url('Bali Jelih std.eot?#iefix') format('embedded-opentype'),
+	url('Bali Jelih std.woff2') format('woff2'),
+	url('Bali Jelih std.woff') format('woff'),
+	url('Bali Jelih std.ttf') format('truetype'),
+	url('Bali Jelih std.svg#bali jelih stdregular') format('svg');
+	font-weight:400;
+	font-style:normal;
+	font-size:20px;
+	line-height:2}
+@font-face{
+font-family:Natya;
+src:url('Natya.eot');
+src:url('Natya.eot?#iefix') format('embedded-opentype'),
+	url('Natya.woff2') format('woff2'),
+	url('Natya.woff') format('woff'),
+	url('Natya.ttf') format('truetype'),
+	url('Natya.svg#bali jelih stdregular') format('svg');
+	font-weight:400;
+	font-style:normal;
+	font-size:20px;
+	line-height:2}
+@font-face{
+font-family:Vimala;
+src:url('Vimala.eot');
+src:url('Vimala.eot?#iefix') format('embedded-opentype'),
+	url('Vimala.woff2') format('woff2'),
+	url('Vimala.woff') format('woff'),
+	url('Vimala.ttf') format('truetype'),
+	url('Vimala.svg#bali jelih stdregular') format('svg');
+	font-weight:400;
+	font-style:normal;
+	font-size:20px;
+	line-height:2}
