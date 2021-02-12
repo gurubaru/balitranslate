@@ -54,7 +54,6 @@ var bali2latn = {
 "ᬳ":'a',//could also be "a" or any sandhangan swara
 "᬴":'​',//cecak telu -- diganti zero-width joiner (tmp)/REREKAN
 "ᭀ":'o',//taling tarung
-"ᬵ":'a',//tarung/TEDUNG
 "ᬶ":'i',//wulu/ULU
 "ᬷ":'ii',//wulu melik/ULU SARI
 "ᬸ":'u',//suku/SUKU
