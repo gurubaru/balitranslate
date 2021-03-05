@@ -75,10 +75,10 @@ function GetMatra(str) {
 	if (i < str.length) {
 	str = str.substring(i);
 	}
-	var matramap1={ "ā":"ᬵ", "e":'ᬾ', "è":'ᬾ', "é":'ᬾ', "i":'ᬶ', "ī":"ᬷ", "o":'ᭀ', "u":'ᬸ', "ū":"ᬹ", "x":"ᭂ", "ě":"ᭂ", "ê":"ᭂ", "ō":"ᭃ", "ô":"",
+	var matramap1={ "ā":"ᬵ", "e":'ᬾ', "è":'ᬾ', "é":'ᬾ', "i":'ᬶ', "ī":"ᬷ", "o":'ᭀ', "u":'ᬸ', "ū":"ᬹ", "ě":"ᭂ", "ê":"ᭂ", "ō":"ᭃ", "ô":"",
 	"A":'ᬅ', "E":'ᬏ', "È":'ᬏ', "É":'ᬏ', "I":'ᬇ', "U":'ᬉ', "O":'ᬑ', "X":"ᬅᭂ", "Ě":"ᬅᭂ", "Ê":"ᬅᭂ",
 	"aa":'ᬵ', "ai":'ᬿ', "au":'ᭁ', "ii":'ᬷ', "uu":'ᬹ'}
-	var matramap2={ "ā":"ᬵ", "e":'ᭂ', "è":'ᬾ', "é":'ᬾ', "i":'ᬶ', "ī":"ᬷ", "u":'ᬸ', "ū":"ᬹ", "o":'ᭀ', "x":"ᭂ", "ě":"ᭂ", "ê":"ᭂ", "ô":"", "ō":"ᭃ",
+	var matramap2={ "ā":"ᬵ", "e":'ᭂ', "x":'ᬾ', "è":'ᬾ', "é":'ᬾ', "i":'ᬶ', "ī":"ᬷ", "u":'ᬸ', "ū":"ᬹ", "o":'ᭀ', "ě":"ᭂ", "ê":"ᭂ", "ô":"", "ō":"ᭃ",
 	"A":'ᬅ', "E":'ᬅᭂ', "È":'ᬏ', "É":'ᬏ', "I":'ᬇ', "U":'ᬉ', "O":'ᬑ', "X":"ᬅᭂ", "Ě":"ᬅᭂ", "Ê":"ᬅᭂ",
 	"aa":'ᬵ', "ai":'ᬿ', "au":'ᭁ', "ii":'ᬷ', "uu":'ᬹ'}
 	var matramap, mode;
@@ -139,24 +139,30 @@ function GetShift(str) {
 	return { "CoreSound": "" + GetCoreSound(str[0]).CoreSound + "ᬄᬳ", "len": 2  };
 	} else if (str.indexOf("rh") == 0) { //rh (kata berakhiran r diikuti kata berawalan h
 	return { "CoreSound": "" + GetCoreSound(str[0]).CoreSound + "ᬃᬳ", "len": 2  };
-	} else if (str.indexOf("kh") == 0) { //kh (aksara murda)
+	} else if (str.indexOf("kh") == 0) { //kh (aksara kekaha)
 	return { "CoreSound":  "ᬔ", "len": 2  };
-	} else if (str.indexOf("gh") == 0) { //gh (aksara murda)
+	} else if (str.indexOf("gh") == 0) { //gh (aksara gegora)
 	return { "CoreSound":  "ᬖ", "len": 2  };
-	} else if (str.indexOf("ch") == 0) { //ch (aksara murda)
+	} else if (str.indexOf("ch") == 0) { //ch (aksara celaca)
 	return { "CoreSound":  "ᬙ", "len": 2  };
-	} else if (str.indexOf("jh") == 0) { //jh (aksara murda)
+	} else if (str.indexOf("jh") == 0) { //jh (aksara jejera)
 	return { "CoreSound":  "ᬛ", "len": 2  };
-	} else if (str.indexOf("ṭh") == 0) { //ṭh (aksara murda)
+	} else if (str.indexOf("ṭh") == 0) { //ṭh (aksara telatik)
 	return { "CoreSound":  "ᬞ", "len": 2  };
-	} else if (str.indexOf("ḍh") == 0) { //ḍh (aksara murda)
+	} else if (str.indexOf("ḍh") == 0) { //ḍh (aksara demadu)
 	return { "CoreSound":  "ᬠ", "len": 2  };
-	} else if (str.indexOf("ph") == 0) { //ph (aksara murda)
+	} else if (str.indexOf("ph") == 0) { //ph (aksara pakapal)
 	return { "CoreSound":  "ᬨ", "len": 2  };
-	} else if (str.indexOf("bh") == 0) { //bh (aksara murda)
+	} else if (str.indexOf("bh") == 0) { //bh (aksara bekembang)
 	return { "CoreSound":  "ᬪ", "len": 2  };
-	} else if (str.indexOf("sh") == 0) { //sh (aksara murda)
+	} else if (str.indexOf("sh") == 0) { //sh (aksara sesapa)
 	return { "CoreSound":  "ᬱ", "len": 2  };
+	} else if (str.indexOf("nh") == 0) { //nh (aksara nerambat)
+	return { "CoreSound":  "ᬡ", "len": 2  };
+	} else if (str.indexOf("qh") == 0) { //th (aksara tetawa)
+	return { "CoreSound":  "ᭉ", "len": 2  };
+	} else if (str.indexOf("zh") == 0) { //th (aksara sesaga)
+	return { "CoreSound":  "ᬰ", "len": 2  };
 	} else if (str.indexOf("h") == 1) { //h
 	return { "CoreSound": "" + GetCoreSound(str[0]).CoreSound + "᭄ᬳ", "len": 2 };
 	} else if (str.indexOf("h") > 1) { //suku kata memiliki konsonan 'h' yang tidak di awal suku
