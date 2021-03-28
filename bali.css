@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Natya';
+    font-family: 'vimala';
     font-style: normal;
     font-weight: 400;
-    src: url(Natya.ttf) format('truetype');
+    src: url(Vimala.ttf) format('truetype');
   }
 textarea{
     width: 100%;
@@ -11,7 +11,7 @@ textarea{
 }
 .main_ta
 {
-   font-family: 'Natya';
+   font-family: 'vimala';
    width:100%;
    height:auto;
    text-align:left;
@@ -29,7 +29,7 @@ textarea{
 }
 .gb
 {
-    font-family: 'Natya';
+    font-family: 'vimala';
     margin:5px;
     border-style:solid;
     border-width:10px;
@@ -41,7 +41,7 @@ textarea{
 
 #prev_label
 {
-    font-family: 'Natya';
+    font-family: 'vimala';
     color:rgb(2, 10, 19);
     font-size: 150%;
     padding: 10px;
