@@ -35,11 +35,11 @@ src:url('Vimala.eot?#iefix') format('embedded-opentype'),
 	font-size:20px;}
 @font-face{
 	font-family:noto2;
-	src:url('noto2.eot');
-src:url('noto2.eot?#iefix') format('embedded-opentype'),
-	url('noto2.woff2') format('woff2'),
-	url('noto2.woff') format('woff'),
-	url('noto2.ttf') format('truetype'),
-	url('noto2.svg#noto2regular') format('svg');
+	src:url('tuladaJegeg.eot');
+src:url('tuladaJegeg.eot?#iefix') format('embedded-opentype'),
+	url('tuladaJegeg.woff2') format('woff2'),
+	url('tuladaJegeg.woff') format('woff'),
+	url('tuladaJegeg.ttf') format('truetype'),
+	url('tuladaJegeg.svg#tuladaJegegregular') format('svg');
 	font-weight:normal;
 	font-style:normal;}
