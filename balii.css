@@ -4,6 +4,12 @@
     font-weight: 400;
     src: url(Vimala.ttf) format('truetype');
   }
+@font-face {
+font-family:'tulgeg';
+font-style: normal;
+font-weight: 400;
+src: url(TuladaJegeg.ttf) format ('truetype');
+}
 textarea{
     width: 100%;
     height: 100px;
