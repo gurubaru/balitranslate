@@ -9,7 +9,7 @@ textarea{
     height: 100px;
     resize: vertical;    
     background-color:#fff;
-    background-image: radial-gradient(red,black);
+    background-image: linear-gradient(to right, black, grey);
     color:rgb(247, 203, 8);
 }
 .main_ta
