@@ -159,8 +159,8 @@ function GetShift(str) {
 	return { "CoreSound":  "ᬱ", "len": 2  };
 	} else if (str.indexOf("nh") == 0) { //nh (aksara nerambat)
 	return { "CoreSound":  "ᬡ", "len": 2  };
-	} else if (str.indexOf("qh") == 0) { //th (aksara tetawa)
-	return { "CoreSound":  "ᭉ", "len": 2  };
+	} else if (str.indexOf("vh") == 0) { //th (aksara tetawa)
+	return { "CoreSound":  "ᬣ", "len": 2  };
 	} else if (str.indexOf("zh") == 0) { //th (aksara sesaga)
 	return { "CoreSound":  "ᬰ", "len": 2  };
 	} else if (str.indexOf("h") == 1) { //h
@@ -486,7 +486,7 @@ function GetCoreSound(str) {
 	"S":"ᬰ", //S
 	"T":"ᬣ", //T
 	"U":"ᬉ", //U
-	"V":"ᬯ᬴", //V
+	"V":"ᬣ", //V
 	"W":"ᬯ", //W
 	"X":"ᭂ", //X
 	"Y":"ᬬ", //Y
@@ -512,7 +512,7 @@ function GetCoreSound(str) {
 	"s":"ᬲ", //s
 	"t":"ᬢ", //t
 	"u":"ᬉ", //u
-	"v":"ᬯ᬴", //v
+	"v":"ᬣ", //v
 	"w":"ᬯ", //w
 	"x":"ᭂ", //x
 	"y":"ᬬ", //y
