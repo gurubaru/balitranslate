@@ -556,7 +556,7 @@ function GetCoreSound(str) {
 	}
 	}
 	function GetSpecialSound(str) {
-	specialsoundMap = { "f":"ᬧ᬴᭄", "v":"ᬯ᬴᭄", "z":"ᬚ᬴᭄", "ś":"ᬰ", "q":"᭄"/*pangkon*/ }
+	specialsoundMap = { "f":"ᬺ", "v":"ᬣ᭄‌", "z":"ᬚ᬴᭄", "ś":"ᬰ", "q":"᭄"/*pangkon*/ }
 	if(specialsoundMap[str]!==undefined){
 	return specialsoundMap[str];
 	}
